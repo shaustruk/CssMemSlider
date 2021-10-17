@@ -249,5 +249,52 @@ input[name = "btn"] {
     margin-left: -80%;
 }
 
+@media screen and (max-width: 768px) {
+    .slides-controls {
+        flex-direction: column;
+    }
+
+    .title-box {
+        justify-content: start;
+    }
+
+    .slides-text {
+        font-size: 1.2rem;
+    }
+
+    .slider-nav {
+        order: -1;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+
+    }
+
+    
+}
+
+@media screen and (max-width: 350px) {
+    .slides {
+        margin-bottom: 15%;
+       
+    }
+
+    .slider-nav {
+        margin-bottom: 10%;
+    }
+    .slider-nav-item {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .title-box {
+        margin-bottom: 10%;
+    }
+
+
+}
 
 
