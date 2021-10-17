@@ -276,6 +276,10 @@ input[name = "btn"] {
 }
 
 @media screen and (max-width: 350px) {
+    .wrapper {
+        max-width: 100%;
+    }
+    
     .slides {
         margin-bottom: 15%;
        
